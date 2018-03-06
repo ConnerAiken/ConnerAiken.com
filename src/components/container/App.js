@@ -14,5 +14,8 @@ class AppContainer extends Component {
 		</main>	
         );
       }
-    }
-    export default AppContainer;
+}
+
+ReactDOM.render(<AppContainer />, document.querySelector('#content'));
+
+export default AppContainer;
