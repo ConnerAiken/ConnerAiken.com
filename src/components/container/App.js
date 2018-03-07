@@ -12,10 +12,13 @@ class AppContainer extends Component {
 
       render() {
         return (
-          <div id="container">
-              <div id="sidebar">
+          <div id="container"> 
+              <div id="header">
 
               </div>
+              <div id="sidebar">
+
+              </div> 
               <div id="content">
 
               </div>
