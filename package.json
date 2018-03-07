@@ -2,10 +2,10 @@
   "name": "conneraiken.com",
   "version": "1.0.0",
   "description": "",
-  "main": "src/container/app.js",
+  "main": "src/container/App.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --config webpack.config.js --port=80 --host='0.0.0.0' --disableHostCheck"
+    "start": "webpack-dev-server --mode development --config webpack.config.js --host='0.0.0.0' --disableHostCheck"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
