@@ -22,6 +22,9 @@ class AppContainer extends Component {
               <div id="content">
 
               </div>
+              <div id="footer">
+
+              </div>
           </div>
         );
       }
