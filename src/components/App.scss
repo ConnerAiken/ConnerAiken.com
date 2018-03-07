@@ -6,11 +6,13 @@
      display: grid;
      grid-template-rows: 5% 92.5% 2.5%;
      grid-template-columns: 10% 90%; 
- 
+    
+     & > div:not(#content) {
+        box-shadow: 0px 0px 10px .5px rgba(0,0,0,0.75);
+     }
 
      #header {
-        background-color: $color-primary-0;
-        box-shadow: 0px 0px 10px .5px rgba(0,0,0,0.75); 
+        background-color: $color-primary-0; 
         z-index: 3;
  
         grid-row-start: 1;
@@ -20,8 +22,7 @@
      }
 
      #sidebar {
-        background-color: $color-primary-1;
-        box-shadow: 0px 0px 10px .5px rgba(0,0,0,0.75);
+        background-color: $color-primary-1; 
 
         margin-left: -10%;
         transform: skewX(-2deg); 
